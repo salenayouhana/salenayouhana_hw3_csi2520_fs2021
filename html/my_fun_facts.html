@@ -7,25 +7,26 @@
 
     <script src="https://kit.fontawesome.com/4f44697727.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="file:///Users/salenayouhana/Downloads/favicon_io/favicon.ico" type="image/png">
+    <link rel="stylesheet" href="../css/style.css">
 
 </head>
 <body>
-    <h1>Some fun facts about me</h1>
     <header>
         <nav id="nav_bar">
-            <menu>
+            <ul>
                 <li><a href="../index.html">Home Page</a></li>
                 <li><a href="my_resume.html">Resume Page</a></li>
                 <li><a href="my_fun_facts.html">Fun Facts About Me Page</a></li>
-            </menu>
+            </ul>
         </nav>
+        <h1>Some fun facts about me</h1>
     </header>
     
 <section>
     <h2>Favorite Book</h2>
-    <figure>
-        <img src="file:///Users/salenayouhana/Desktop/TheHungerGames.jpg" alt="Cover of my favorite book The Hunger Games" width="264 height=400">
-        <figcaption>I like this book because there is a lot of action and drama in it.<br>
+    <figure id="book">
+        <img src="file:///Users/salenayouhana/Desktop/SalenaYouhana_HW/img/HungerGames.jpg" alt="Cover of my favorite book The Hunger Games" width="264 height=400">
+        <figcaption id="book_caption">I like this book because there is a lot of action and drama in it.<br>
             It is a dystopian novel but also has a lot of violence in it which makes it interesting.
         </figcaption>
     </figure>
@@ -33,22 +34,24 @@
 
 <main id="page_main_content">
     <section id="music">
-        <div id="audio files">
+        <div id="audio_files">
             <h2>Current favorite song</h2>
-            <h3>Take My Breath-The Weeknd</h3>
-            <audio src="file:///Users/salenayouhana/Desktop/The_Weeknd_-_Take_My_Breath.mp3" controls>
+            <p class="entertainment">Take My Breath-The Weeknd</p>
+            <audio src="file:///Users/salenayouhana/Desktop/The_Weeknd_-_Take_My_Breath.mp3" controls class="audio">
                 Audio file not supported by your browser.
             </audio>
-            <a href="https://open.spotify.com/album/6DmXKM13nNgIIby2FdK0f8"><br>Listen to Take My Breath on Spotify</a>
+            <a href="https://open.spotify.com/album/6DmXKM13nNgIIby2FdK0f8" class="file"><br>Listen to Take My Breath on Spotify</a>
         </div>
     </section>
 </main>
 
-<section>
+<section id="series">
     <h2>Current Favorite Series</h2>
-    <h3>All American</h3>
+    <p class="entertainment">All American</p>
+    <div class="clip">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/BwT989C_GuM" title="YouTube video player" frameborder="0" allow="accelerometer; 
     autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 </section>
 
 <hr>
@@ -58,7 +61,7 @@
     </a>
     <a href = "https://Instagram.com"> <i class="fab fa-instagram">Instagram</i></a>
     <a href = "https://Twitter.com"> <i class="fab fa-twitter">Twitter</i></a>
-    <div>&copy;Salena Youhana, 2021</div>
+    <div class="footer_name">&copy;Salena Youhana, 2021</div>
 </footer>
     
 </body>

@@ -7,24 +7,26 @@
 
     <script src="https://kit.fontawesome.com/4f44697727.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href=".//img/favicon.ico" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+
 
 </head>
 <body>
-<h1>Salena Youhana Portfolio Page</h1>
     <header>
-        <nav id="nav_bar">
-            <menu>
-                <li><a href="../index.html">Home Page</a></li>
+        <nav id="nav_bar" class="nav_bar">
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
                 <li><a href="html/my_resume.html">Resume Page</a></li>
                 <li><a href="html/my_fun_facts.html">Fun Facts About Me Page</a></li>
-            </menu>
+            </ul>
         </nav>
+        <h1>Salena Youhana Portfolio Page</h1>
     </header>
 
 <section>
     <h2>Picture of me</h2>
         <figure>
-            <img src="img/salena.jpg" alt="Photo of Salena Youhana" width="426.5" height="228.75">
+            <img src="img/salena.jpg" alt="Photo of Salena Youhana" class="sal" width="426.5" height="228.75">
         </figure>
 </section>
 
@@ -34,15 +36,15 @@
 
 <main>
     <h3>Introducing Myself</h3>
-    <p>My name is Salena Youhana. I am a Junior at Oakland University
+    <p class="description">My name is Salena Youhana. I am a Junior at Oakland University
         and my major is Information Technology. I am from Sterling Heights, Michigan and I am 20 years old.<br>
         I do not have much professional experience but I am currently looking for an
-        IT internship. I am a full time students and I am expected to graduate in Spring of 2023. <br>
+        IT internship. I am a full time student and I am expected to graduate in Spring of 2023. <br>
         To know more about me, check out my <a href="html/my_resume.html">Resume Page</a> and <a href="html/my_fun_facts.html">Fun Facts Page</a> .
     </p>
 
-    <div>
-        <label for="credit_progess">Credit progress</label>
+    <div class="progress">
+        <label for="credit_progess">Progress to Bachelor's Degree</label>
         <progress id="credit_progress" min=0 max=128 value=82>.64</progress>
     </div>
 </main>
@@ -54,7 +56,7 @@
     </a>
     <a href = "https://Instagram.com"> <i class="fab fa-instagram">Instagram</i></a>
     <a href = "https://Twitter.com"> <i class="fab fa-twitter">Twitter</i></a>
-    <div>&copy;Salena Youhana, 2021</div>
+    <div class="footer_name"> &copy;Salena Youhana, 2021 </div>
 
     
 </footer>
