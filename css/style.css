@@ -155,6 +155,52 @@ blockquote {
 .clip{
   position: relative;
   overflow: hidden;
-  padding-left: 30%;
+  text-align: center;
   border-style: groove;
+}
+
+/* Blog Page*/
+.apple{
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.apple_description{
+  display: flex;
+  font-size: 12pt;
+  border-style: solid;
+  background-color: #ffc0cb;
+}
+
+input[type=text]:invalid {
+  border: red solid 1px;
+}
+
+.container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container > label {
+ text-align: center;
+}
+#comment{
+  background-color: #ffffff;
+}
+#addComments {
+  width: 20%;
+  padding: 5px;
+  background-color: rgb(155, 187, 229);
+  color: white;
+  align-self: center;
+}
+
+.wrapper > button {
+  margin-right: 5px;
+  padding: 5px;
+  background-color: #ffc0cb;
+  color: white;
 }
